@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="(new model)" id="id-de089ef9a9d249c5a6804e5fc73be30d" version="5.0.0">
+  <folder name="Strategy" id="id-a1210a79d16d4393b3f386651969177a" type="strategy"/>
+  <folder name="Business" id="id-e052cd9ba16c40ce8066dadbc8a1211a" type="business"/>
+  <folder name="Application" id="id-3a39efe5d7db457990f9e29ea1e2b5a7" type="application"/>
+  <folder name="Technology &amp; Physical" id="id-0f233cff239342c1abf84ae12cafd12d" type="technology">
+    <element xsi:type="archimate:Device" name="Komputer operatora" id="id-c68de823ecca4f1db7cf8f44c594bb56">
+      <documentation>Stanowisko planisty i kierownika akcji, służące do obsługi panelu koordynacyjnego.</documentation>
+    </element>
+    <element xsi:type="archimate:Node" name="Serwer" id="id-ded766cf777e486ab557a35aec134b90">
+      <documentation>Infrastruktura uruchamiająca usługi systemu SARA.</documentation>
+    </element>
+    <element xsi:type="archimate:Device" name="Radiotelefon" id="id-d10cbd4204024842b6447448a5556100"/>
+    <element xsi:type="archimate:Device" name="Smartfon ratownika" id="id-ced6d39d05fc4ee0a98b13ea98842a8b">
+      <documentation>Mobilne urządzenie wykorzystywane przez ratowników podczas akcji poszukiwawczej. Umożliwia określanie pozycji GPS, komunikację z systemem SARA, przeglądanie map oraz przesyłanie informacji o przebiegu działań.</documentation>
+    </element>
+    <element xsi:type="archimate:SystemSoftware" name="Android" id="id-774b64aa8aae4e3aa3f5e3220ac38692"/>
+  </folder>
+  <folder name="Motivation" id="id-d432c9bab04b474ea3b72934ef797941" type="motivation"/>
+  <folder name="Implementation &amp; Migration" id="id-38e4a6ee113d4dc6ac295190f5314aeb" type="implementation_migration"/>
+  <folder name="Other" id="id-f308db1578b14529a0d95f0ee802e463" type="other"/>
+  <folder name="Relations" id="id-3034a780b7eb4ed8a1e57c98017336ad" type="relations"/>
+  <folder name="Views" id="id-be17e90c2f434461800688cecc54283a" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-a159b6a121474f0ea11e207d2e63cd6e">
+      <child xsi:type="archimate:Group" id="id-2be30e4191fd4d50a840db36c632fc1c" name="Warstwa technologiczna" textAlignment="1" fillColor="#aafbc7">
+        <bounds x="84" y="192" width="1285" height="529"/>
+        <child xsi:type="archimate:DiagramObject" id="id-2687f2a1ffe7420abf879e8ed40a67cb" archimateElement="id-774b64aa8aae4e3aa3f5e3220ac38692">
+          <bounds x="828" y="228" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-fe365462b7af4fffafde41adcfe9a86e" archimateElement="id-c68de823ecca4f1db7cf8f44c594bb56">
+          <bounds x="192" y="231" width="97" height="49"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-b457a8ca4f614d7183b493087ff3f5b4" archimateElement="id-ded766cf777e486ab557a35aec134b90">
+          <bounds x="444" y="108" width="217" height="328"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-100b929dd806494a8a7ea4459b8d55b3" archimateElement="id-d10cbd4204024842b6447448a5556100">
+          <bounds x="696" y="84" width="121" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-ed53a45440964bbdb53077df5c520355" archimateElement="id-ced6d39d05fc4ee0a98b13ea98842a8b">
+          <bounds x="1032" y="132" width="120" height="55"/>
+        </child>
+      </child>
+    </element>
+  </folder>
+</archimate:model>
